@@ -7,3 +7,12 @@
 h1 {
     color: blue;
 }
+
+.myDivClass {
+    height: 50px;
+    width: 50px;
+    background-color: tomato;
+    border: dotted 2px green;
+    margin-left: 12em;
+    padding: 2vw;
+}
