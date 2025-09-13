@@ -10,23 +10,26 @@
 	<title>EDMullins</title>
 </head>
 
-<body class="container-fluid">
+<body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="#">EM|Dev</a>
+		<div class="container-fluid m-2 fw-bolder">
+			<a class="navbar-brand" href="#">Lorem|Dev</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a class="nav-link" href="pages/blog.html">Blog</a>
+						<a class="nav-link" href="pages/about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pages/projects.html">Projects</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="pages/resources.html">Resources</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="https://validator.nu/?showsource=yes&doc=https%3A%2F%2Fedmullins.github.io%2FEDMullins%2F" target="_blank">Check Page Validity</a>
+						<a class="nav-link" href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fedmullins.github.io%2FEDMullins%2F" target="_blank">Check Page Validity</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="https://github.com/EDMullins/EDMullins" target="_blank">Source Code</a>
@@ -35,31 +38,65 @@
 			</div>
 		</div>
 	</nav>
-	<h1>Ethan's Dev page</h1>
+	<div class="jumbotron text-center bg-light p-5">
+		<h1 class="display-1 color-primary fst-italic">Welcome to My Page</h1>
+		<hr class="my-4">
+		<p>Using HTML, CSS, JavaScript, and Bootstrap 5</p>
+		<a class="btn btn-primary text-white btn-lg" href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fedmullins.github.io%2FEDMullins%2F" target="_blank">Check Page Validity</a>
 
-	<div class="row">
-		<div class="col-md-6 offset-md-3">
-			<div class="card">
-				<div class="card-header">
-					<h4 class="card-title">bs5 card</h4>
+	</div>
+	<div class="container-fluid text-center p-5 bg-light">
+		<h2 class="mb-4">About Me</h2>
+		<p class="lead ml-md-5 mr-md-5">
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed asperiores omnis architecto recusandae, eum facere temporibus error, saepe aspernatur amet, vitae debitis minima aperiam quis placeat? Similique veritatis maxime possimus.
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.
+		</p>
+	</div>
+	<!-- Projects Section -->
+	<div class="container-fluid p-5 bg-light">
+		<h2 class="text-center mb-5">Projects</h2>
+		<div class="row row-cols-1 row-cols-md-3 g-4">
+			<div class="col">
+				<div class="card h-100 shadow-sm">
+					<img src="imgs/landscape1.jpg" class="card-img-top" alt="Project 1">
+					<div class="card-body">
+						<h5 class="card-title">Project One</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, perspiciatis.</p>
+					</div>
+					<div class="card-footer text-center">
+						<a href="#" class="btn btn-outline-primary">View</a>
+					</div>
 				</div>
-				<div class="card-body">
-					<ul class="list-group list-group-horizontal">
-						<li class="list-group-item">cards are cool</li>
-						<li class="list-group-item">cards are cool</li>
-						<li class="list-group-item">cards are cool</li>					</ul>
+			</div>
+			<div class="col">
+				<div class="card h-100 shadow-sm">
+					<img src="imgs/landscape2.jpg" class="card-img-top h-100" alt="Project 2">
+					<div class="card-body">
+						<h5 class="card-title">Project Two</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, dolor.</p>
+					</div>
+					<div class="card-footer text-center">
+						<a href="#" class="btn btn-outline-primary">View</a>
+					</div>
 				</div>
-				<div class="card-footer">
-					<a class="btn btn-outline-primary" href="https://www.w3schools.com/bootstrap5/bootstrap_cards.php" target="bsCards">
-						Read More or something
-					</a>
+			</div>
+			<div class="col">
+				<div class="card h-100 shadow-sm">
+					<img src="imgs/landscape3.jpg" class="card-img-top" alt="Project 3">
+					<div class="card-body">
+						<h5 class="card-title">Project Three</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, harum.</p>
+					</div>
+					<div class="card-footer text-center">
+						<a href="#" class="btn btn-outline-primary">View</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<footer class="text-center bg-light">
-		<button id="btnClicky" class="btn btn-outline-dark">Click Me!</button>
+	<footer class="text-center bg-dark text-light p-4">
+		<p>&copy; 2025 Lorem Dev | Built with Bootstrap</p>
+		<button id="btnClicky" class="btn btn-outline-light">Click Me!</button>
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>

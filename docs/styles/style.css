@@ -1,18 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 * {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
-h1 {
-    color: blue;
+.bg-primary {
+    background-color: #3F403F !important;
 }
 
-.myDivClass {
-    height: 50px;
-    width: 50px;
-    background-color: tomato;
-    border: dotted 2px green;
-    margin-left: 12em;
-    padding: 2vw;
+.color-primary {
+    color: #0B6E4F !important;
+}
+
+.btn-primary {
+    background-color: #0B6E4F !important;
+    border-color: #0B6E4F !important;
+}
+.btn-primary:hover {
+    background-color: #094d36 !important;
+    border-color: #094d36 !important;
+}
+.btn-outline-primary {
+    color: #0B6E4F !important;
+    border-color: #0B6E4F !important;
+}
+.btn-outline-primary:hover {
+    background-color: #0B6E4F !important;
+    color: white !important;
+    border-color: #0B6E4F !important;
 }
