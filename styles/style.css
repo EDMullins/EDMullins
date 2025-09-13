@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+.bg-primary {
+    background-color: #3F403F !important;
+}
+
+.color-primary {
+    color: #0B6E4F !important;
+}
+
+.btn-primary {
+    background-color: #0B6E4F !important;
+    border-color: #0B6E4F !important;
+}
+.btn-primary:hover {
+    background-color: #094d36 !important;
+    border-color: #094d36 !important;
+}
+.btn-outline-primary {
+    color: #0B6E4F !important;
+    border-color: #0B6E4F !important;
+}
+.btn-outline-primary:hover {
+    background-color: #0B6E4F !important;
+    color: white !important;
+    border-color: #0B6E4F !important;
+}
