@@ -62,8 +62,14 @@ function setDarkTheme() {
         }
     }
     else {
+        if (img1) {
+            img1.src = "../imgs/landscape4.jpg";
+        }
         if (img2) {
             img2.src = "../imgs/landscape5.jpg";
+        }
+        if (img3) {
+            img3.src = "../imgs/landscape6.jpg";
         }
     }
 }
@@ -99,8 +105,14 @@ function setLightTheme() {
         }
     }
     else {
+        if (img1) {
+            img1.src = "../imgs/landscape1.jpg";
+        }
         if (img2) {
             img2.src = "../imgs/landscape2.jpg";
+        }
+        if (img3) {
+            img3.src = "../imgs/landscape3.jpg";
         }
     }
 }
