@@ -47,14 +47,24 @@ function setDarkTheme() {
     const img1 = document.getElementById('img1');
     const img2 = document.getElementById('img2');
     const img3 = document.getElementById('img3');
-    if (img1) {
-        img1.src = "../imgs/landscape4.jpg";
+    let url = window.location.href;
+    url = url.substring(url.lastIndexOf('/') + 1);
+    console.log(url);
+    if (url === "index.html") {
+        if (img1) {
+            img1.src = "imgs/landscape4.jpg";
+        }
+        if (img2) {
+            img2.src = "imgs/landscape5.jpg";
+        }
+        if (img3) {
+            img3.src = "imgs/landscape6.jpg";
+        }
     }
-    if (img2) {
-        img2.src = "../imgs/landscape5.jpg";
-    }
-    if (img3) {
-        img3.src = "../imgs/landscape6.jpg";
+    else {
+        if (img2) {
+            img2.src = "../imgs/landscape5.jpg";
+        }
     }
 }
 
@@ -74,13 +84,23 @@ function setLightTheme() {
     const img1 = document.getElementById('img1');
     const img2 = document.getElementById('img2');
     const img3 = document.getElementById('img3');
-    if (img1) {
-        img1.src = "../imgs/landscape1.jpg";
+    let url = window.location.href;
+    url = url.substring(url.lastIndexOf('/') + 1);
+    console.log(url);
+    if (url === "index.html") {
+        if (img1) {
+            img1.src = "imgs/landscape1.jpg";
+        }
+        if (img2) {
+            img2.src = "imgs/landscape2.jpg";
+        }
+        if (img3) {
+            img3.src = "imgs/landscape3.jpg";
+        }
     }
-    if (img2) {
-        img2.src = "../imgs/landscape2.jpg";
-    }
-    if (img3) {
-        img3.src = "../imgs/landscape3.jpg";
+    else {
+        if (img2) {
+            img2.src = "../imgs/landscape2.jpg";
+        }
     }
 }
