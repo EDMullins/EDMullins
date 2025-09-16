@@ -50,7 +50,7 @@ function setDarkTheme() {
     let url = window.location.href;
     url = url.substring(url.lastIndexOf('/') + 1);
     console.log(url);
-    if (url === "index.html") {
+    if (url === "index.html" || url === "#") {
         if (img1) {
             img1.src = "imgs/landscape4.jpg";
         }
@@ -93,7 +93,7 @@ function setLightTheme() {
     let url = window.location.href;
     url = url.substring(url.lastIndexOf('/') + 1);
     console.log(url);
-    if (url === "index.html") {
+    if (url === "index.html" || url === "#") {
         if (img1) {
             img1.src = "imgs/landscape1.jpg";
         }
