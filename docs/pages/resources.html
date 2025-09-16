@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EDMullins</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
+	<!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 		<div class="container-fluid m-2 fw-bolder">
 			<a class="navbar-brand" href="../index.html">Lorem|Dev</a>
@@ -26,20 +28,76 @@
 						<a class="nav-link" href="resources.html">Resources</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="https://validator.nu/?showsource=yes&doc=https%3A%2F%2Fedmullins.github.io%2FEDMullins%2F" target="_blank">Check Page Validity</a>
+						<a class="nav-link" href="https://github.com/EDMullins/EDMullins" target="_blank">Source Code</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="https://github.com/EDMullins/EDMullins" target="_blank">Source Code</a>
+						<a class="nav-link bi-moon-fill" id="darkModeToggle" href="#"></a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-	<footer class="text-center bg-dark text-light p-4">
+
+	<!-- Header -->
+	<header class="text-center bg-light py-5">
+		<h1 class="display-4 color-primary">Resources</h1>
+		<p class="lead">A collection of helpful tools, tutorials, and references.</p>
+	</header>
+
+	<!-- Resources Section -->
+	<div class="container-fluid bg-light py-5">
+		<div class="m-4">
+			<ul class="list-group">
+				<li class="list-group-item d-flex align-items-center">
+					<div class="ms-2 me-auto">
+						<strong>W3Schools</strong>
+						<p class="">Learn web development with tutorials and references for HTML, CSS, JavaScript, and more.</p>
+					</div>
+					<a href="https://www.w3schools.com/" target="_blank" class="btn btn-outline-primary px-4">link</a>
+				</li>
+				<li class="list-group-item d-flex align-items-center">
+					<div class="ms-2 me-auto">
+						<strong>GitHub</strong>
+						<p>Host, share, and collaborate on code with millions of developers worldwide.</p>
+					</div>
+					<a href="https://github.com/" target="_blank" class="btn btn-outline-primary px-4">link</a>
+				</li>
+				<li class="list-group-item d-flex align-items-center">
+					<div class="ms-2 me-auto">
+						<strong>Codecademy</strong>
+						<p>Interactive coding lessons that help you learn programming step by step.</p>
+					</div>
+					<a href="https://www.codecademy.com/" target="_blank" class="btn btn-outline-primary px-4">link</a>
+				</li>
+				<li class="list-group-item d-flex align-items-center">
+					<div class="ms-2 me-auto">
+						<strong>Coolors</strong>
+						<p>Quickly generate beautiful color palettes for your design projects.</p>
+					</div>
+					<a href="https://coolors.co/" target="_blank" class="btn btn-outline-primary px-4">link</a>
+				</li>
+				<li class="list-group-item d-flex align-items-center">
+					<div class="ms-2 me-auto">
+						<strong>LeetCode</strong>
+						<p>Practice coding problems, prepare for interviews, and improve your skills.</p>
+					</div>
+					<a href="https://leetcode.com/" target="_blank" class="btn btn-outline-primary px-4">link</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="text-center bg-primary text-light p-4 d-flex justify-content-around align-items-center flex-wrap">
 		<p>&copy; 2025 Lorem Dev | Built with Bootstrap</p>
+		<div class="d-flex gap-3">
+			<a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fedmullins.github.io%2FEDMullins%2F" target="_blank" class="btn btn-outline-light">Check Page Validity</a>
+			<a href="https://wave.webaim.org/report#/https://edmullins.github.io/EDMullins/" target="_blank" class="btn btn-outline-light">Check Page Accessibility</a>
+		</div>
 	</footer>
+
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-	<script src="scripts/script.js"></script>
+	<script src="../scripts/script.js"></script>
 </body>
 </html>

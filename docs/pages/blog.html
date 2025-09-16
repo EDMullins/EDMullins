@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EDMullins</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="../styles/style.css">
 </head>
@@ -26,10 +27,10 @@
 						<a class="nav-link" href="resources.html">Resources</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="https://validator.nu/?showsource=yes&doc=https%3A%2F%2Fedmullins.github.io%2FEDMullins%2F" target="_blank">Check Page Validity</a>
+						<a class="nav-link" href="https://github.com/EDMullins/EDMullins" target="_blank">Source Code</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="https://github.com/EDMullins/EDMullins" target="_blank">Source Code</a>
+						<a class="nav-link bi-moon-fill" id="darkModeToggle" href="#"></a>
 					</li>
 				</ul>
 			</div>
@@ -39,16 +40,16 @@
 		<h1 class="display-4 color-primary">My Blog</h1>
 		<p class="lead">Thoughts, tutorials, and random lorem ipsum posts.</p>
 	</header>
-	<div class="container py-5">
+	<div class="container-fluid p-5 bg-light">
 		<div class="row row-cols-1 row-cols-md-2 g-4">
 
 			<!-- Blog Post 1 -->
 			<div class="col">
 				<div class="card h-60 shadow-sm">
-					<div class="card-body bg-light">
+					<div class="card-body">
 						<h5 class="card-title">Lorem Blog Post One</h5>
 						<small class="text-muted">September 12, 2025</small>
-						<p class="card-text bg-white mt-3 h-50 p-3">
+						<p class="card-text rounded mt-3 p-3">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 							Exercitationem quos facilis quae veniam fugit quibusdam.
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -64,10 +65,10 @@
 			<!-- Blog Post 2 -->
 			<div class="col">
 				<div class="card h-60 shadow-sm">
-					<div class="card-body bg-light">
+					<div class="card-body">
 						<h5 class="card-title">Lorem Blog Post Two</h5>
 						<small class="text-muted">September 5, 2025</small>
-						<p class="card-text bg-white mt-3 h-50 p-3">
+						<p class="card-text rounded mt-3 p-3">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 							Exercitationem quos facilis quae veniam fugit quibusdam.
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -83,10 +84,10 @@
 			<!-- Blog Post 3 -->
 			<div class="col">
 				<div class="card h-60 shadow-sm">
-					<div class="card-body bg-light">
+					<div class="card-body">
 						<h5 class="card-title">Lorem Blog Post Three</h5>
 						<small class="text-muted">September 1, 2025</small>
-						<p class="card-text bg-white mt-3 h-50 p-3">
+						<p class="card-text rounded mt-3 p-3">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 							Exercitationem quos facilis quae veniam fugit quibusdam.
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -100,11 +101,18 @@
 			</div>
 		</div>
 	</div>
-	<footer class="text-center bg-dark text-light p-4">
+	
+	<!-- Footer -->
+	<footer class="text-center bg-primary text-light p-4 d-flex justify-content-around align-items-center flex-wrap">
 		<p>&copy; 2025 Lorem Dev | Built with Bootstrap</p>
+		<div class="d-flex gap-3">
+			<a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fedmullins.github.io%2FEDMullins%2F" target="_blank" class="btn btn-outline-light">Check Page Validity</a>
+			<a href="https://wave.webaim.org/report#/https://edmullins.github.io/EDMullins/" target="_blank" class="btn btn-outline-light">Check Page Accessibility</a>
+		</div>
 	</footer>
+
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-	<script src="scripts/script.js"></script>
+	<script src="../scripts/script.js"></script>
 </body>
 </html>

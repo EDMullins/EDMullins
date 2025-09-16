@@ -1,41 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+:root {
+    --primary-color: #0B6E4F;
+    --secondary-color: #393939;
+    --primary-color-hover: #094d36;
+    --background-color: #fdfdfd;
+    --text-color: #222222;
+    --card-bg: #ffffff;
+    --list-bg: #ffffff;
+    --opacity-bg: rgba(255, 255, 255, 0.75);
+    --bg-img: url('../imgs/landscape3.jpg');
+}
+
 * {
     font-family: 'Outfit', sans-serif;
 }
 
+body {
+    color: var(--text-color);
+}
+
+.card {
+    background-color: var(--card-bg) !important;
+}
+
+.list-group-item {
+    background-color: var(--list-bg) !important;
+    color: var(--text-color) !important;
+}
+
 .bg-primary {
-    background-color: #3F403F !important;
+    background-color: var(--secondary-color) !important;
 }
 
 .color-primary {
-    color: #0B6E4F !important;
+    color: var(--primary-color) !important;
 }
 
 .btn-primary {
-    background-color: #0B6E4F !important;
-    border-color: #0B6E4F !important;
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
 }
+
 .btn-primary:hover {
-    background-color: #094d36 !important;
-    border-color: #094d36 !important;
+    background-color: var(--primary-color-hover) !important;
+    border-color: var(--primary-color-hover) !important;
 }
+
 .btn-outline-primary {
-    color: #0B6E4F !important;
-    border-color: #0B6E4F !important;
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
 }
+
 .btn-outline-primary:hover {
-    background-color: #0B6E4F !important;
+    background-color: var(--primary-color) !important;
     color: white !important;
-    border-color: #0B6E4F !important;
+    border-color: var(--primary-color) !important;
 }
+
 .bg-img {
-    background-image: url('../imgs/landscape3.jpg');
+    background-image: var(--bg-img);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .opacity {
-    background-color: rgba(255, 255, 255, 0.75) !important;
+    background-color: var(--opacity-bg) !important;
+}
+
+.bg-light {
+    background-color: var(--background-color) !important;
 }
