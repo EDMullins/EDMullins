@@ -30,6 +30,7 @@ The site contains the following sections/pages:
 ## Wireframe
 
 ![Wireframe](docs/imgs/wireframeIndex.png)
+
 Or view the wireframe here: *[FigmaLink](https://www.figma.com/design/vLFrmlF2nNfwaQowq0cMz9/Untitled?node-id=0-1&t=klDkNwxUdKKlBG7C-1)*
 
 ## Live Link
