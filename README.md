@@ -44,33 +44,33 @@ Here’s a sample snippet from the HTML that shows the nav bar in 'index.html'
 
 ```
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-		<div class="container-fluid m-2 fw-bolder">
-			<!-- "javascript:void(0);" keeps the link from refreshing the page -->
-			<a class="navbar-brand" href="javascript:void(0);">Lorem|Dev</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-						<a class="nav-link" href="pages/about.html">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="pages/blog.html">Blog</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="pages/resources.html">Resources</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://github.com/EDMullins/EDMullins" target="_blank">Source Code</a>
-					</li>
-					<li class="nav-item">
-						<button class="nav-link bi-moon-fill bg-primary btn" id="darkModeToggle" type="button" value="theme"></button>
-					</li>
-				</ul>
-			</div>
+	<div class="container-fluid m-2 fw-bolder">
+		<!-- "javascript:void(0);" keeps the link from refreshing the page -->
+		<a class="navbar-brand" href="javascript:void(0);">Lorem|Dev</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" href="pages/about.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="pages/blog.html">Blog</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="pages/resources.html">Resources</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/EDMullins/EDMullins" target="_blank">Source Code</a>
+				</li>
+				<li class="nav-item">
+					<button class="nav-link bi-moon-fill bg-primary btn" id="darkModeToggle" type="button" value="theme"></button>
+				</li>
+			</ul>
 		</div>
-	</nav>
+	</div>
+</nav>
  ```
 
 ## Tools Used
