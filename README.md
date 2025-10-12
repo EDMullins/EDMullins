@@ -17,4 +17,6 @@ I am a junior IT major at the University of North Alabama
 * Link to Game: https://edmullins.github.io/FortuneClicker/
 * Link to Repo: https://github.com/EDMullins/FortuneClicker
 * <img width="450" alt="wireframe" src="https://github.com/user-attachments/assets/03aafdab-e4c2-48c5-9453-2e07e0578f4b" />
+* Link to Wave: https://wave.webaim.org/report#/https://edmullins.github.io/FortuneClicker/
+* Link to Nu HTML: https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fedmullins.github.io%2FFortuneClicker%2F
 
