@@ -1,0 +1,59 @@
+{
+  "projects": [
+    {
+      "id": "proj-001",
+      "type": "project",
+      "title": "My Portfolio Website",
+      "description": "A responsive personal portfolio showcasing my web development journey",
+      "image": "https://edmullins.github.io/EDMullins/imgs/landscape1.png",
+      "repo": "https://github.com/EDMullins/EDMullins",
+      "live": "https://edmullins.github.io/EDMullins/",
+      "featured": true
+    },
+    {
+      "id": "proj-002",
+      "type": "project",
+      "title": "Project Beta",
+      "description": "A small fortune cookie clicker game made with JavaScript.",
+      "image": "https://edmullins.github.io/FortuneClicker/images/fortuneCookie.png",
+      "repo": "https://github.com/EDMullins/FortuneClicker",
+      "live": "https://edmullins.github.io/FortuneClicker",
+      "featured": false
+    },
+    {
+      "id": "proj-003",
+      "type": "project",
+      "title": "Project Charlie",
+      "description": "A API based game hub that shows the classes Project Beta games.",
+      "image": "",
+      "repo": "https://github.com/EDMullins/ProjectCharlie",
+      "live": "https://edmullins.github.io/ProjectCharlie/",
+      "featured": false
+    },
+    {
+      "id": "proj-004",
+      "type": "project",
+      "title": "Project Delta",
+      "description": "A project that demonstrated bad and good design choices in advertising.",
+      "image": "https://edmullins.github.io/Project_Delta/ScreenshotProjectDelta.png",
+      "repo": "https://github.com/EDMullins/Project_Delta",
+      "live": "https://edmullins.github.io/Project_Delta/",
+      "featured": true
+    }
+  ],
+
+  "achievements": [
+    {
+      "id": "achv-001",
+      "type": "achievement",
+      "title": "CodeAcademy: JavaScript Foundations",
+      "description": "Completed JavaScript foundations, covering syntax, functions, arrays, objects, and DOM manipulation."
+    },
+    {
+      "id": "achv-002",
+      "type": "achievement",
+      "title": "St. Jude Internship: Software Quality Engineering",
+      "description": "Accepted a 10-week Internship with St. Jude"
+    }
+  ]
+}
