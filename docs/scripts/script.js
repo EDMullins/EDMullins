@@ -153,7 +153,7 @@ async function loadProjects() {
         const projects = data.projects;
 
         projects.forEach(project => {
-            const imgSrc = project.image && project.image.trim() !== "" ? project.image : "assets/imgs/landscape4.jpg";
+            const imgSrc = project.image && project.image.trim() !== "" ? project.image : "../assets/imgs/landscape4.jpg";
 
             const card = document.createElement("div");
             card.classList.add("col-12", "col-md-6", "col-lg-4");
