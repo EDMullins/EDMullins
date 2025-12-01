@@ -13,10 +13,3 @@ I am a junior IT major at the University of North Alabama
 
 <p align="left"> <a href="https://www.github.com/EDMullins" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" title="GitHub" /> </picture> </a> <a href="https://www.linkedin.com/in/ethan-mullins-03b78b237" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn" title="LinkedIn" /> </picture> </a></p>
 
-### Project Beta
-* Link to Game: https://edmullins.github.io/FortuneClicker/
-* Link to Repo: https://github.com/EDMullins/FortuneClicker
-* <img width="450" alt="wireframe" src="https://github.com/user-attachments/assets/03aafdab-e4c2-48c5-9453-2e07e0578f4b" />
-* Link to Wave: https://wave.webaim.org/report#/https://edmullins.github.io/FortuneClicker/
-* Link to Nu HTML: https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fedmullins.github.io%2FFortuneClicker%2F
-
