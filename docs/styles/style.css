@@ -9,7 +9,7 @@
     --card-bg: #ffffff;
     --list-bg: #ffffff;
     --opacity-bg: rgba(255, 255, 255, 0.75);
-    --bg-img: url('../imgs/landscape3.jpg');
+    --bg-img: url('../assets/imgs/landscape3.jpg');
 }
 
 * {
@@ -78,6 +78,14 @@ body {
 
 .bg-light {
     background-color: var(--background-color) !important;
+}
+
+zero-md {
+    display: block;
+    background: rgb(17, 17, 17);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 @media (max-width: 735px) {
